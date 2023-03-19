@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Пример 65</title>
+</head>
+<body>
+    <script>
+    
+  show1 = function() { 
+    for (let i in mySmart1) 
+    { 
+        console.log(`${i}:${mySmart1[i]}\n`); 
+    } 
+  } 
+        let mySmart1 = new Object(); 
+  mySmart1.model = "Samsung Galaxy S23 Ultra"; 
+  mySmart1.year = "2023"; 
+  mySmart1.price = "2040$"; 
+  mySmart1.memory = "512ГБ"; 
+  mySmart1.display = "6.8"; 
+  mySmart1.protect = "IP68"; 
+  show1();
+  
+
+  
+  show2 = function() 
+  { 
+    for (let i in mySmart2) 
+    { 
+        console.log(`${i}:${mySmart2[i]}\n`); 
+    } 
+  }
+  let mySmart2 = new Object(); 
+  mySmart2.model = "ASUS ROG Phone 6 Pro"; 
+  mySmart2.year = "2023"; 
+  mySmart2.price = "2145$"; 
+  mySmart2.memory = "512 ГБ"; 
+  mySmart2.display = "6.78"; 
+  mySmart2.protect = "IPX4";
+  show2();
+
+
+  show3 = function() 
+  { 
+    for (let i in mySmart3) 
+    { 
+   console.log(`${i}:${mySmart3[i]}\n`); 
+    } 
+  }
+  let mySmart3 = new Object(); 
+  mySmart3.model = "OnePlus 11 Pro"; 
+  mySmart3.year = "2022"; 
+  mySmart3.price = "910$"; 
+  mySmart3.memory = "512 ГБ"; 
+  mySmart3.display = "6.7"; 
+  mySmart3.protect = "IP64";
+  show3();
+
+    </script>
+</body>
+</html>

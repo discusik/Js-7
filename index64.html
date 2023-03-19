@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Пример 64</title>
+</head>
+<body>
+    <script> 
+  let mySmart = new Object(); 
+  mySmart.model = "Apple iPhone 14 Pro Max Dual SIM 1TB"; 
+  mySmart.year = "2022"; 
+  mySmart.price = "2130$"; 
+  mySmart.memory = "1TB"; 
+  mySmart.display = "6.7"; 
+  mySmart.protect = "IP68"; 
+  show = function() 
+  { 
+    for (let i in mySmart) 
+    { 
+   document.write (`${i}:${mySmart[i]}<br>`); 
+    } 
+  } 
+  alert(`${mySmart.model}`); 
+  alert(`${mySmart.year}`); 
+  alert(`${mySmart.price}`); 
+  alert(`${mySmart.memory}`); 
+  alert(`${mySmart.display}`); 
+  alert(`${mySmart.protect}`); 
+  show();     
+    </script>
+</body>
+</html>

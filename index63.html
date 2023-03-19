@@ -1,0 +1,17 @@
+<!DOCTYPE HTML> 
+<html> 
+<head> 
+  <title>Пример 63</title> 
+</head> 
+<body> 
+  <script> function createOAuthString(host, clientId, scope) { 
+    return `${host}/login/oauth/authorize?client_id=${clientId}&scope=${scope}` 
+  } ;
+  let a = prompt('Введите аунтификатор.');
+  if (a.length < 1) {
+    a = 'fufaev';
+  };
+  console.log (createOAuthString('https://github.com' , a , 'repo,user')); 
+  </script>
+</body> 
+</html>
